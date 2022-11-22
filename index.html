@@ -2,11 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Rohit-Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-default"></nav>
+    <nav class="navbar navbar-default">
+      <div class="bg-gray-700 flex justify-between p-3">
+        <h2
+          class="font-bold text-lime-400 text-xl border-2 border-lime-400 rounded-lg p-1"
+        >
+          <a href="index.html">Portfolio</a>
+        </h2>
+        <ul class="text-white flex gap-5 items-center font-bold">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main></main>
+    <footer>
+      <div id="footer" class="bg-black">
+        <div class="flex flex-col">
+          <h2
+            class="flex font-bold text-white text-xl justify-center p-3 mt-12"
+          >
+            portfolio.com
+          </h2>
+          <ul class="text-gray-600 text-xs flex gap-5 font-bold justify-center">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+
+          <div class="flex gap-2 justify-center my-4">
+            <a href="#twitter" title="twitter">
+              <i
+                class="fa-brands fa-twitter border-2 border-lime-400 p-1 rounded-xl"
+              ></i>
+            </a>
+            <a href="#facebook" title="facebook">
+              <i
+                class="fa-brands fa-facebook border-2 border-lime-400 p-1 rounded-xl"
+              ></i>
+            </a>
+            <a href="#instagram" title="instagram">
+              <i
+                class="fa-brands fa-instagram border-2 border-lime-400 p-1 rounded-xl"
+              ></i>
+            </a>
+          </div>
+          <div class="flex justify-center my-5 text-gray-600">
+            <p>
+              Copyright ©2022 All rights reserved | This template is made
+              with❤️by <b class="text-lime-400">Portfolio.com</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

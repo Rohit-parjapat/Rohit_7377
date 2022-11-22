@@ -1,0 +1,21 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #848e9f;
+  overflow-x: hidden;
+}
+.fa-twitter {
+  color: rgb(210, 240, 43);
+  border-radius: 100%;
+}
+.fa-facebook {
+  color: rgb(210, 240, 43);
+  border-radius: 100%;
+}
+.fa-instagram {
+  color: rgb(210, 240, 43);
+  border-radius: 100%;
+}
