@@ -7,6 +7,9 @@ body {
   color: #848e9f;
   overflow-x: hidden;
 }
+a:hover {
+  color: #fff;
+}
 .fa-twitter {
   color: rgb(210, 240, 43);
   border-radius: 100%;
@@ -23,4 +26,9 @@ body {
   background-image: url("https://th.bing.com/th/id/R.5fb8d1de9d0a4b99b385ba88b7ea358f?rik=VqnmhapFzIa1aA&riu=http%3a%2f%2fclassifieds.usatoday.com%2fwp-content%2fuploads%2f2017%2f12%2fentry-level-web-design-jobs-768x471.jpeg&ehk=UzN0vKtCg5lFh9sHFGq6HFLN4W9xD0Hmn%2fl%2bImJWvpk%3d&risl=&pid=ImgRaw&r=0");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.skills > .carousel-item > img {
+  width: 350px;
+  height: 350px;
+  margin-left: -175px;
 }
