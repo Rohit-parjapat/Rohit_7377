@@ -22,10 +22,19 @@ a:hover {
   color: rgb(210, 240, 43);
   border-radius: 100%;
 }
+.fa-github {
+  color: rgb(210, 240, 43);
+  border-radius: 100%;
+}
+.fa-linkedin {
+  color: rgb(210, 240, 43);
+  border-radius: 100%;
+}
 .hero_poster_image {
-  background-image: url("https://th.bing.com/th/id/R.5fb8d1de9d0a4b99b385ba88b7ea358f?rik=VqnmhapFzIa1aA&riu=http%3a%2f%2fclassifieds.usatoday.com%2fwp-content%2fuploads%2f2017%2f12%2fentry-level-web-design-jobs-768x471.jpeg&ehk=UzN0vKtCg5lFh9sHFGq6HFLN4W9xD0Hmn%2fl%2bImJWvpk%3d&risl=&pid=ImgRaw&r=0");
+  background-image: url("https://wallpaperaccess.com/full/4230797.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  /* filter: blur(3px); */
 }
 .skills > .carousel-item > img {
   width: 300px;
@@ -35,4 +44,73 @@ a:hover {
 .projects > .card > img {
   width: 20rem;
   height: 12rem;
+}
+.bg-image {
+  background-image: url("/images/contactbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Contact form CSS */
+.contactForm {
+  box-shadow: 0px 0px 15px 2px #fff;
+  padding: 30px;
+  width: 650px;
+}
+
+.fields {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 400px;
+  border-radius: unset;
+  font-size: smaller;
+  font-family: sans-serif;
+}
+.form-submitbtn {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-family: initial;
+}
+
+.contact-detail-head {
+  color: #fff;
+  font-size: smaller;
+  padding: 20px 0px 0px 50px;
+}
+
+.contact-info {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0px 3px 35px 60px;
+}
+.fa-phone {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: #122338;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.fa-location {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  color: #122338;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.fa-square-envelope {
+  position: absolute;
+  bottom: 64px;
+  left: 25px;
+  color: #122338;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 13px;
 }
