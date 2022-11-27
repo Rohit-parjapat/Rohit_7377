@@ -75,42 +75,44 @@ a:hover {
 
 .contact-detail-head {
   color: #fff;
-  font-size: smaller;
-  padding: 20px 0px 0px 50px;
+  font-size: medium;
+  padding: 25px 0px 0px 60px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 .contact-info {
-  color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
-  padding: 0px 3px 35px 60px;
+  padding: 10px 0px 0px 90px;
 }
 .fa-phone {
   position: absolute;
-  top: 20px;
-  left: 25px;
-  color: #122338;
+  top: 25px;
+  left: 30px;
+  color: rgb(31, 206, 233);
   border-radius: 50%;
-  line-height: 20px;
-  font-size: 13px;
+  /* line-height: 20px; */
+  font-size: 16px;
 }
 
 .fa-location {
   position: absolute;
   top: 120px;
-  left: 25px;
-  color: #122338;
+  left: 30px;
+  color: rgb(14, 10, 144);
   border-radius: 50%;
-  line-height: 20px;
-  font-size: 13px;
+  /* line-height: 20px; */
+  font-size: 16px;
+  padding: 0px 0px 0px 1px;
 }
 
 .fa-square-envelope {
   position: absolute;
-  bottom: 64px;
-  left: 25px;
-  color: #122338;
+  top: 215px;
+  left: 30px;
+  color: rgb(185, 10, 10);
   border-radius: 50%;
-  line-height: 20px;
-  font-size: 13px;
+  /* line-height: 20px; */
+  font-size: 16px;
 }
