@@ -116,3 +116,8 @@ a:hover {
   /* line-height: 20px; */
   font-size: 16px;
 }
+@media (min-width: 1024px) {
+  .top-navbar {
+    display: inline-flex !important;
+  }
+}
